@@ -1,0 +1,13 @@
+Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            a3e1e95d-9760-4f0c-a63a-00bd4f151d40
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::df37:1904:34d1:b388
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:13
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+

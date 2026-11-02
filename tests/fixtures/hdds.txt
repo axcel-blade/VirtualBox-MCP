@@ -1,0 +1,18 @@
+UUID:           36f56503-67ef-4f2a-a82c-dd5a31e39d5f
+Parent UUID:    base
+State:          created
+Type:           normal (base)
+Location:       C:\Users\srika\Desktop\VirtualBox VMs\CCSEP-Final\CCSEP-Final-disk001.vdi
+Storage format: vdi
+Capacity:       102400 MBytes
+Encryption:     disabled
+
+UUID:           5f983e14-57f9-4847-a1ba-0bb3c09c8317
+Parent UUID:    36f56503-67ef-4f2a-a82c-dd5a31e39d5f
+State:          created
+Type:           normal (differencing)
+Location:       C:\Users\srika\Desktop\VirtualBox VMs\CCSEP-Final\Snapshots/{5f983e14-57f9-4847-a1ba-0bb3c09c8317}.vdi
+Storage format: vdi
+Capacity:       102400 MBytes
+Encryption:     disabled
+

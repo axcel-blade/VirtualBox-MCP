@@ -1,0 +1,59 @@
+{
+  "name": "virtualbox-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for managing Oracle VirtualBox VMs and executing commands inside guest operating systems.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "virtualbox-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "docs",
+    "examples",
+    ".env.example"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "VBOX_MCP_INTEGRATION=1 vitest run tests/integration",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "health": "node dist/index.js health",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "virtualbox",
+    "vboxmanage",
+    "model-context-protocol",
+    "ai-agent",
+    "virtualization"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "pino": "^10.4.0",
+    "ssh2": "^1.17.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "@types/ssh2": "^1.15.6",
+    "eslint": "^10.14.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  }
+}
