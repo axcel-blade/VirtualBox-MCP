@@ -6,6 +6,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 ## [Unreleased]
 
 ### Added
+- `virtualbox-mcp` CLI entry point with `serve` (stdio MCP server, the default), `health`, `stop`, `resume` and `version` commands.
+- Core MCP tools for VM discovery and lifecycle, guest command execution and guest file access, all enforced by the security layer and recorded in the audit log.
 - Project foundation: TypeScript, Vitest, ESLint, and a Zod-validated configuration with environment overrides.
 - VirtualBox detection across Windows, Linux and macOS, plus host resource inspection.
 - A safe `VBoxManage` client (argument arrays, timeouts, output limits, structured errors).

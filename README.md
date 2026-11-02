@@ -16,8 +16,10 @@ A [Model Context Protocol](https://modelcontextprotocol.io) server that lets AI 
 | File management and transfers | Manager implemented |
 | Permission engine, approvals, redaction, audit log | Implemented |
 | Packages, administration, snapshots, networking, storage, devices, monitoring, orchestration | Planned |
-| MCP tools, resources, prompts | Planned |
-| STDIO and authenticated Streamable HTTP transports | Planned |
+| MCP tools (core VM, execution and file tools) | Implemented |
+| MCP resources, prompts, remaining tools | Planned |
+| STDIO transport and CLI (`serve`, `health`, `stop`, `resume`) | Implemented |
+| Authenticated Streamable HTTP transport | Planned |
 
 ## Requirements
 

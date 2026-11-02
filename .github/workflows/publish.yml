@@ -1,0 +1,37 @@
+name: Publish to npm
+
+# Publishes via npm Trusted Publishing (OIDC): no npm token is stored in the repo.
+# Configure on npmjs.com: package Settings -> Trusted Publisher -> GitHub Actions,
+# owner "axcel-blade", repository "VirtualBox-MCP", workflow "publish.yml".
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Build, test and publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          cache: npm
+      # Trusted publishing needs npm 11.5.1 or newer.
+      - run: npm install -g npm@latest
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test -- --passWithNoTests
+      # prepack runs the build; --provenance attaches a signed build attestation.
+      - run: npm publish --provenance --access public
