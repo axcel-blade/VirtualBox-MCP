@@ -1,0 +1,105 @@
+API version:                     7_2
+Minimum guest RAM size:          4 Megabytes
+Maximum guest RAM size:          2097152 Megabytes
+Minimum video RAM size:          0 Megabytes
+Maximum video RAM size:          256 Megabytes
+Maximum guest monitor count:     64
+Minimum guest CPU count:         1
+Maximum guest CPU count:         64
+Virtual disk limit (info):       2199022206976 Bytes
+Default machine folder:          C:\Users\srika\Desktop\VirtualBox VMs
+Raw-mode Supported:              no
+Exclusive HW virtualization use: off
+Default hard disk format:        VDI
+VRDE auth library:               VBoxAuth
+Webservice auth. library:        VBoxAuth
+Remote desktop ExtPack:          Built-in-VBoxVRDP
+VM encryption ExtPack:           
+Log history count:               3
+Default frontend:                
+Default audio driver:            Windows Audio Session
+Autostart database path:         
+Default Guest Additions ISO:     C:\Program Files\Oracle\VirtualBox/VBoxGuestAdditions.iso
+Logging Level:                   all
+Proxy Mode:                      System
+Proxy URL:                       
+User language:                   C
+Host platform properties:
+Maximum Serial Port count:              4
+Maximum Parallel Port count:            2
+Maximum Boot Position:                  4
+Maximum Floppy Port count:              1
+Maximum Floppy Devices per Port:        2
+Maximum virtio-scsi Port count:         256
+Maximum virtio-scsi Devices per Port:   1
+Maximum IDE Port count:                 2
+Maximum IDE Devices per port:           2
+Maximum SATA Port count:                30
+Maximum SATA Device per port:          1
+Maximum SCSI Port count:                16
+Maximum SCSI Devices per port:          1
+Maximum SAS Port count:                 255
+Maximum SAS Devices per Port:           1
+Maximum NVMe Port count:                255
+Maximum NVMe Devices per Port:          1
+Supported chipsets:                     PIIX3, ICH9
+PIIX3 chipset properties:
+Maximum PIIX3 Network Adapter count:   8
+Maximum PIIX3 IDE Controllers:   1
+Maximum PIIX3 SATA Controllers:  1
+Maximum PIIX3 SCSI Controllers:  1
+Maximum PIIX3 SAS Controllers:   1
+Maximum PIIX3 NVMe Controllers:  1
+Maximum PIIX3 virtio-scsi Controllers:  1
+Maximum PIIX3 Floppy Controllers:1
+
+ICH9 chipset properties:
+Maximum ICH9 Network Adapter count:   36
+Maximum ICH9 IDE Controllers:   1
+Maximum ICH9 SATA Controllers:  8
+Maximum ICH9 SCSI Controllers:  8
+Maximum ICH9 SAS Controllers:   8
+Maximum ICH9 NVMe Controllers:  8
+Maximum ICH9 virtio-scsi Controllers:  8
+Maximum ICH9 Floppy Controllers:1
+
+Supported platform architectures: x86
+
+x86 platform properties:
+Maximum Serial Port count:              4
+Maximum Parallel Port count:            2
+Maximum Boot Position:                  4
+Maximum Floppy Port count:              1
+Maximum Floppy Devices per Port:        2
+Maximum virtio-scsi Port count:         256
+Maximum virtio-scsi Devices per Port:   1
+Maximum IDE Port count:                 2
+Maximum IDE Devices per port:           2
+Maximum SATA Port count:                30
+Maximum SATA Device per port:          1
+Maximum SCSI Port count:                16
+Maximum SCSI Devices per port:          1
+Maximum SAS Port count:                 255
+Maximum SAS Devices per Port:           1
+Maximum NVMe Port count:                255
+Maximum NVMe Devices per Port:          1
+Supported chipsets:                     PIIX3, ICH9
+PIIX3 chipset properties:
+Maximum PIIX3 Network Adapter count:   8
+Maximum PIIX3 IDE Controllers:   1
+Maximum PIIX3 SATA Controllers:  1
+Maximum PIIX3 SCSI Controllers:  1
+Maximum PIIX3 SAS Controllers:   1
+Maximum PIIX3 NVMe Controllers:  1
+Maximum PIIX3 virtio-scsi Controllers:  1
+Maximum PIIX3 Floppy Controllers:1
+
+ICH9 chipset properties:
+Maximum ICH9 Network Adapter count:   36
+Maximum ICH9 IDE Controllers:   1
+Maximum ICH9 SATA Controllers:  8
+Maximum ICH9 SCSI Controllers:  8
+Maximum ICH9 SAS Controllers:   8
+Maximum ICH9 NVMe Controllers:  8
+Maximum ICH9 virtio-scsi Controllers:  8
+Maximum ICH9 Floppy Controllers:1
