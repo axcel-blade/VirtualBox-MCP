@@ -40,6 +40,14 @@
     "virtualization"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axcel-blade/VirtualBox-MCP.git"
+  },
+  "homepage": "https://github.com/axcel-blade/VirtualBox-MCP#readme",
+  "bugs": {
+    "url": "https://github.com/axcel-blade/VirtualBox-MCP/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2",
     "pino": "^10.4.0",
