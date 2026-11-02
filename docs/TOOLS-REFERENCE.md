@@ -1,6 +1,6 @@
 # MCP Tools Reference
 
-> The MCP tool layer has not been implemented yet. This page lists the planned tools, grouped by area, with their permission categories. Each tool is marked as implemented here only once it has been built and tested.
+> Implemented so far: `list_vms`, `list_running_vms`, `get_vm_info`, `get_vm_state`, `get_host_info`, `start_vm`, `shutdown_vm`, `pause_vm`, `resume_vm`, `save_vm_state`, `wait_for_vm_state`, `poweroff_vm`, `reset_vm`, `discard_saved_state`, `execute_command`, `execute_command_async`, `get_command_status`, `get_command_output`, `wait_for_command`, `get_command_history`, `cancel_command`, `detect_guest_os`, `list_available_shells`, `list_guest_files`, `read_guest_file`, `write_guest_file`, `delete_guest_file`. The rest of this page lists the planned tools, grouped by area, with their permission categories.
 
 Categories: **R** read-only · **M** ordinary modification · **D** destructive (requires explicit approval).
 
