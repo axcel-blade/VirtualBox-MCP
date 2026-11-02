@@ -1,0 +1,5 @@
+SnapshotName="Snapshot 1"
+SnapshotUUID="e1cfb1fd-88aa-4fcb-b767-2d0e5cc21c26"
+CurrentSnapshotName="Snapshot 1"
+CurrentSnapshotUUID="e1cfb1fd-88aa-4fcb-b767-2d0e5cc21c26"
+CurrentSnapshotNode="SnapshotName"

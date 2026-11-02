@@ -1,0 +1,66 @@
+Host Information:
+
+Host time: 2026-11-02T22:32:04.825000000Z
+Processor online count: 24
+Processor count: 24
+Processor online core count: 16
+Processor core count: 16
+Processor supports HW virtualization: yes
+Processor supports PAE: yes
+Processor supports long mode: yes
+Processor supports nested paging: yes
+Processor supports unrestricted guest: no
+Processor supports nested HW virtualization: no
+Processor supports virt. vmsave/vmload: no
+Processor#0 speed: unknown
+Processor#0 description: Intel(R) Core(TM) i7-14650HX
+Processor#1 speed: unknown
+Processor#1 description: Intel(R) Core(TM) i7-14650HX
+Processor#2 speed: unknown
+Processor#2 description: Intel(R) Core(TM) i7-14650HX
+Processor#3 speed: unknown
+Processor#3 description: Intel(R) Core(TM) i7-14650HX
+Processor#4 speed: unknown
+Processor#4 description: Intel(R) Core(TM) i7-14650HX
+Processor#5 speed: unknown
+Processor#5 description: Intel(R) Core(TM) i7-14650HX
+Processor#6 speed: unknown
+Processor#6 description: Intel(R) Core(TM) i7-14650HX
+Processor#7 speed: unknown
+Processor#7 description: Intel(R) Core(TM) i7-14650HX
+Processor#8 speed: unknown
+Processor#8 description: Intel(R) Core(TM) i7-14650HX
+Processor#9 speed: unknown
+Processor#9 description: Intel(R) Core(TM) i7-14650HX
+Processor#10 speed: unknown
+Processor#10 description: Intel(R) Core(TM) i7-14650HX
+Processor#11 speed: unknown
+Processor#11 description: Intel(R) Core(TM) i7-14650HX
+Processor#12 speed: unknown
+Processor#12 description: Intel(R) Core(TM) i7-14650HX
+Processor#13 speed: unknown
+Processor#13 description: Intel(R) Core(TM) i7-14650HX
+Processor#14 speed: unknown
+Processor#14 description: Intel(R) Core(TM) i7-14650HX
+Processor#15 speed: unknown
+Processor#15 description: Intel(R) Core(TM) i7-14650HX
+Processor#16 speed: unknown
+Processor#16 description: Intel(R) Core(TM) i7-14650HX
+Processor#17 speed: unknown
+Processor#17 description: Intel(R) Core(TM) i7-14650HX
+Processor#18 speed: unknown
+Processor#18 description: Intel(R) Core(TM) i7-14650HX
+Processor#19 speed: unknown
+Processor#19 description: Intel(R) Core(TM) i7-14650HX
+Processor#20 speed: unknown
+Processor#20 description: Intel(R) Core(TM) i7-14650HX
+Processor#21 speed: unknown
+Processor#21 description: Intel(R) Core(TM) i7-14650HX
+Processor#22 speed: unknown
+Processor#22 description: Intel(R) Core(TM) i7-14650HX
+Processor#23 speed: unknown
+Processor#23 description: Intel(R) Core(TM) i7-14650HX
+Memory size: 24299 MByte
+Memory available: 9410 MByte
+Operating system: Windows 11
+Operating system version: 10.0.26300.9457
